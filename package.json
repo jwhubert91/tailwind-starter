@@ -12,6 +12,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@hotwired/stimulus": "^3.1.0",
+    "@hotwired/stimulus-webpack-helpers": "^1.0.1",
     "tailwindcss": "^3.2.1"
   },
   "devDependencies": {
