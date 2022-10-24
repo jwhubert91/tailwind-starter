@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+BREAKPOINTS:
+  xs/mobile: 0px
+  sm/tablet: 601px
+  md/laptop: 641
+  lg/dekstop: 1100
+*/
+
+:root {
+  --welcomeWhite: #fff;
+  --welcomeBlack: #000;
+  --grayBlack: #1a1a1a;
+  --primaryBlue: #4A8EE7;
+  --lightGray: #EEEFF4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gilroy';
+}
+
+.index-wrapper {
+  width: 100%;
+  background-color: var(--welcomeWhite);
+}
+
+.hero-wrapper {
+  width: 100%;
+}

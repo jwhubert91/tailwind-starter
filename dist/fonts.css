@@ -1,0 +1,126 @@
+    /* FONTS - Nutino Sans */
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/Bold/NunitoSans-Bold.woff2") format("woff2");
+      font-weight: bold;
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/Italic/NunitoSans-Italic.woff2") format("woff2");
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/Bold/NunitoSans-Bold.woff2") format("woff2");
+      font-weight: bold;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/Light/NunitoSans-Light.woff2") format("woff2");
+      font-weight: 300;
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/Light-Italic/NunitoSans-LightItalic.woff2") format("woff2");
+      font-weight: 300;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/SemiBold/NunitoSans-SemiBold.woff2") format("woff2");
+      font-weight: 600
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/Extra-Light/NunitoSans-ExtraLight.woff2") format("woff2");
+      font-weight: lighter;
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/Extra-Light-Italic/NunitoSans-ExtraLightItalic.woff2") format("woff2");
+      font-weight: lighter;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/SemiBold-Italic/NunitoSans-SemiBoldItalic.woff2") format("woff2");
+      font-weight: 600;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/Extra-Bold/NunitoSans-ExtraBold.woff2") format("woff2");
+      font-weight: bolder;
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/Extra-Bold-Italic/NunitoSans-ExtraBoldItalic.woff2") format("woff2");
+      font-weight: bolder;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/Black/NunitoSans-Black.woff2") format("woff2");
+      font-weight: 900
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/Black-Italic/") format("woff2");
+      font-weight: 900;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Nutino-Sans";
+      src: url("./fonts/Nunito-Sans/Regular/NunitoSans-Regular.woff2") format("woff2");
+    }
+    /* FONTS - Gilroy */
+    @font-face {
+      font-family: "Gilroy";
+      src: url("./fonts/Gilroy/Thin/Gilroy-Thin.woff2") format("woff2");
+      font-weight: 100;
+    }
+    @font-face {
+      font-family: "Gilroy";
+      src: url("./fonts/Gilroy/Ultra-Light/Gilroy-UltraLight.woff2") format("woff2");
+      font-weight: 200;
+    }
+    @font-face {
+      font-family: "Gilroy";
+      src: url("./fonts/Gilroy/Light/Gilroy-Light.woff2") format("woff2");
+      font-weight: 300;
+    }
+    @font-face {
+      font-family: "Gilroy";
+      src: url("./fonts/Gilroy/Medium/Gilroy-Medium.woff2") format("woff2");
+      font-weight: 500;
+    }
+    @font-face {
+      font-family: "Gilroy";
+      src: url("./fonts/Gilroy/SemiBold/Gilroy-SemiBold.woff2") format("woff2");
+      font-weight: 600;
+    }
+    @font-face {
+      font-family: "Gilroy";
+      src: url("./fonts/Gilroy/Bold/Gilroy-Bold.woff2") format("woff2");
+      font-weight: bold;
+    }
+    @font-face {
+      font-family: "Gilroy";
+      src: url("./fonts/Gilroy/Extra-Bold/Gilroy-ExtraBold.woff2") format("woff2");
+      font-weight: 800;
+    }
+    @font-face {
+      font-family: "Gilroy";
+      src: url("./fonts/Gilroy/Heavy/Gilroy-Heavy.woff2") format("woff2");
+      font-weight: 900;
+    }
+    @font-face {
+      font-family: "Gilroy";
+      src: url("./fonts/Gilroy/Black/Gilroy-Black.woff2") format("woff2");
+      font-weight: 950;
+    }
+    @font-face {
+      font-family: "Gilroy";
+      src: url("./fonts/Gilroy/Regular/Gilroy-Regular.woff2") format("woff2");
+    }
