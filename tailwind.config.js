@@ -11,11 +11,19 @@ module.exports = {
       black: "var(--welcomeBlack)",
       grayBlack: "var(--grayBlack)",
       primary: "var(--primaryBlue)",
+      primaryLight: "var(--primaryBlueLight)",
       gray: "var(--lightGray)",
     },
     fontFamily: {
       sans: ["Nutino-Sans"],
       gilroy: ["Gilroy"],
+    },
+    fontSize: {
+      base: "16px",
+      lg: "22px",
+      xl: "30px",
+      "2xl": "34px",
+      header: "38px",
     },
   },
   variants: {
