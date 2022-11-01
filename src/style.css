@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+mock size ( / 2 ) = 1440px
+BREAKPOINTS:
+  xs: 0px
+  sm/mobile: 440px
+  tablet: 601px
+  md/laptop: 641
+  lg/dekstop: 1101
+*/
+
+:root {
+  --welcomeWhite: #fff;
+  --welcomeBlack: #000;
+  --grayBlack: #1a1a1a;
+  --primaryBlue: #4A8EE7;
+  --primaryBlueLight: #6EABF9;
+  --lightGray: #EEEFF4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Gilroy';
+}
+
+.index-wrapper {
+  width: 100%;
+  background-color: var(--welcomeWhite);
+}
+
+@layer components {
+  .btn {
+    @apply inline-block py-[10px] px-[40px] rounded-md font-semibold focus:outline-none ring-2 ring-primary duration-300 cursor-pointer;
+  }
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primaryLight hover:ring-primaryLight;
+  }
+  .btn-secondary {
+    @apply bg-white text-primary hover:text-white hover:bg-primary;
+  }
+}

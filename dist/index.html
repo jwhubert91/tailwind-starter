@@ -3,13 +3,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Welcome Homes | We make building easier than buying</title>
+  <link rel="stylesheet" href="./fonts.css">
+  <link rel="shortcut icon" href="./assets/welcome-favicon-32.png" type="image/png">
 </head>
 <body>
-  <h1 class="text-4xl text-blue-700">My Webpack + Tailwind App</h1>
-  <div data-controller="hello">
-    <input type="text">
-    <button>Greet</button>
+  <div class="index-wrapper">
+    <div class="hero-wrapper flex items-center flex-nowrap flex-col p-0 lg:flex-row tablet:px-[30px] lg:pl-[84px] lg:pr-[64px]">
+      <div class="hero-box text-center p-[20px] md:px-0 lg:text-left lg:w-[45%] lg:pr-[50px] lg:pt-[30px] lg:pb-[40px]">
+        <h1 class="font-bold text-header leading-tight pb-[10px] lg:pb-0">We make building a new home possible</h1>
+        <h2 class="pb-[20px] lg:pl-1 lg:py-[40px] lg:pr-[30px]">A new home is so much better than a used one- Welcome makes the process of building a home super-simple. We handle everything at a guaranteed all-in price.</h2>
+        <div class="max-md:flex max-md:flex-col max-md:items-center md:text-left md:whitespace-nowrap lg:pl-1">
+          <a class="btn btn-primary text-left max-md:px-[16px] max-md:w-2/3 max-md:mb-[12px]">Our models</a>
+          <a class="btn btn-secondary text-left max-md:px-[16px] max-md:w-2/3 md:ml-[21px]">Explore towns</a>
+        </div>
+      </div>
+      <div class="hero-box flex-1 pt-[30px] pb-[50px]">
+        <img src="./images/welcome-slider-1.jpg" alt="slider-1" class="rounded-2xl" />
+      </div>
+    </div>
   </div>
   <script src="bundle.js"></script>
 </body>
