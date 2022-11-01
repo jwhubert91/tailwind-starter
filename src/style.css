@@ -5,8 +5,9 @@
 /*
 mock size ( / 2 ) = 1440px
 BREAKPOINTS:
-  xs/mobile: 0px
-  sm/tablet: 601px
+  xs: 0px
+  sm/mobile: 440px
+  tablet: 601px
   md/laptop: 641
   lg/dekstop: 1101
 */
@@ -31,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @layer components {
   .btn {
-    @apply py-[10px] px-[40px] rounded-md font-semibold focus:outline-none ring-2 ring-primary duration-300 cursor-pointer;
+    @apply inline-block py-[10px] px-[40px] rounded-md font-semibold focus:outline-none ring-2 ring-primary duration-300 cursor-pointer;
   }
   .btn-primary {
     @apply bg-primary text-white hover:bg-primaryLight hover:ring-primaryLight;

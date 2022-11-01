@@ -2,9 +2,10 @@ module.exports = {
   content: ["./dist/*.html"],
   theme: {
     screens: {
+      sm: "440px",
       tablet: "601px",
       md: "641px",
-      lg: "1100px",
+      lg: "1101px",
     },
     colors: {
       white: "var(--welcomeWhite)",
