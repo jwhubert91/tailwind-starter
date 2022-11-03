@@ -6,7 +6,7 @@
   <title>Welcome Homes | We make building easier than buying</title>
   <link rel="stylesheet" href="./fonts.css">
   <link rel="shortcut icon" href="./assets/welcome-favicon-32.png" type="image/png">
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <div class="index-wrapper">
@@ -19,13 +19,30 @@
           <a class="btn btn-secondary text-left max-md:px-[16px] max-md:w-2/3 md:ml-[21px]">Explore towns</a>
         </div>
       </div>
-      <div class="hero-box flex-1 pt-[30px] pb-[50px] relative">
-        <div class="swiper-buttons-container">
-        </div>
+      <div class="hero-box flex-1 pb-[50px] relative pt-[10px] lg:pt-[30px]">
         <img src="./images/welcome-slider-1.jpg" alt="slider-1" class="rounded-2xl" />
+        <button class="swiper-button swiper-button-left hover:text-primary">
+          <span class="material-icons md-18 duration-300">
+            chevron_left
+          </span>
+        </button>
+        <button class="swiper-button swiper-button-right hover:text-primary">
+          <span class="material-icons md-18 duration-300">
+            chevron_right
+          </span>
+        </button>
       </div>
     </div>
-    <div class="w-full bg-grayBlack text-white pt-[64px] pb-[96px]"></div>
+    <div class="w-full bg-grayBlack text-white px-[80px] pt-[64px] pb-[96px]">
+      <div class="how-it-works-header">
+        <h2 class="text-2xl font-bold tracking-wide pt-[24px]">How it works</h2>
+      </div>
+      <div class="w-full flex space-between">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
   </div>
   <script src="bundle.js"></script>
 </body>
