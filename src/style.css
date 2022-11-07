@@ -81,6 +81,11 @@ h1, h2, h3, h4, h5, h6 {
 .swiper-button-right {
   right: 15px;
 }
+@media screen and (max-width: 601px) {
+  .swiper-button {
+    top: calc(50% - 20px);
+  }
+}
 
 /* HOW IT WORKS element */
 .how-it-works-header {
@@ -107,9 +112,6 @@ h1, h2, h3, h4, h5, h6 {
 .how-it-works-item p {
   letter-spacing: 0.05em;
 }
-/* @media screen and (min-width: 851px) {
-  
-} */
 
 @layer components {
   .btn {
