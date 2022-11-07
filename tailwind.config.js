@@ -15,7 +15,7 @@ module.exports = {
       grayBlack: "var(--grayBlack)",
       primary: "var(--primaryBlue)",
       primaryLight: "var(--primaryBlueLight)",
-      gray: "var(--lightGray)",
+      lightGray: "var(--lightGray)",
     },
     fontFamily: {
       sans: ["Nutino-Sans"],

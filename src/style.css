@@ -67,6 +67,20 @@ h1, h2, h3, h4, h5, h6 {
 .material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
 .material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
 
+/* Thick top border section headers */
+.section-header {
+  position: relative;
+}
+.section-header::before {
+  content:'';
+  position: absolute;
+  background-color: var(--welcomeBlack);
+  width: 55px;
+  height: 5px;
+  top: 0;
+  left:0;
+}
+
 /* HERO element */
 .swiper-button {
   border-radius: 50%;
@@ -88,28 +102,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* HOW IT WORKS element */
-.how-it-works-header {
-  position: relative;
-}
-.how-it-works-header::before {
-  content:'';
-  position: absolute;
-  background-color: var(--welcomeBlack);
-  width: 55px;
-  height: 5px;
-  top: 0;
-  left:0;
-}
-.how-it-works-items-container .how-it-works-icon {
+.how-it-works__items-container .how-it-works__icon {
   border-radius: 50%;
   background-color: var(--welcomeBlack);
   padding: 20px;
 }
-.how-it-works-items-container h5 {
+.how-it-works__items-container h5 {
   font-size: 18px;
   letter-spacing: 0.025em;
 }
-.how-it-works-item p {
+.how-it-works__item p {
   letter-spacing: 0.05em;
 }
 
@@ -123,4 +125,19 @@ h1, h2, h3, h4, h5, h6 {
   .btn-secondary {
     @apply bg-white text-primary hover:text-white hover:bg-primary;
   }
+}
+
+/* LIVE WHERE YOU WANT element */
+.live-where-you-want__header::before {
+  background-color: var(--lightGray);
+  height: 8px;
+  width: 52px;
+}
+.live-where-you-want__card {
+  padding: 20px;
+  display: inline;
+}
+.live-where-you-want__card > img {
+  height: 220px;
+  width: 375px;
 }
