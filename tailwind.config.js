@@ -1,10 +1,12 @@
 module.exports = {
   content: ["./dist/*.html"],
+  important: true,
   theme: {
     screens: {
-      sm: "440px",
-      tablet: "601px",
-      md: "641px",
+      mobile: "440px",
+      sm: "601px",
+      tablet: "641px",
+      md: "851px",
       lg: "1101px",
     },
     colors: {

@@ -6,11 +6,10 @@
 /*
 mock size ( / 2 ) = 1440px
 BREAKPOINTS:
-  xs: 0px
-  sm/mobile: 440px
-  tablet: 601px
-  md/laptop: 641
-  lg/dekstop: 1101
+  mobile: 440px
+  sm: 601px
+  tablet: 641px
+  lg/dekstop: 1101px
 */
 
 /* global styles */
@@ -86,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
 /* HOW IT WORKS element */
 .how-it-works-header {
   position: relative;
-  margin-bottom: 68px;
 }
 .how-it-works-header::before {
   content:'';
@@ -101,18 +99,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   background-color: var(--welcomeBlack);
   padding: 20px;
-  margin-bottom: 26px;
 }
 .how-it-works-items-container h5 {
   font-size: 18px;
   letter-spacing: 0.025em;
-  margin-bottom: 32px;
-}
-.how-it-works-item {
-  width: 30%;
 }
 .how-it-works-item p {
-  letter-spacing: 0.025em;
+  letter-spacing: 0.05em;
 }
 /* @media screen and (min-width: 851px) {
   
