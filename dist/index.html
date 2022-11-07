@@ -6,20 +6,65 @@
   <title>Welcome Homes | We make building easier than buying</title>
   <link rel="stylesheet" href="./fonts.css">
   <link rel="shortcut icon" href="./assets/welcome-favicon-32.png" type="image/png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
   <div class="index-wrapper">
-    <div class="hero-wrapper flex items-center flex-nowrap flex-col p-0 lg:flex-row tablet:px-[30px] lg:pl-[84px] lg:pr-[64px]">
-      <div class="hero-box text-center p-[20px] md:px-0 lg:text-left lg:w-[45%] lg:pr-[50px] lg:pt-[30px] lg:pb-[40px]">
+    <div class="hero-wrapper flex items-center flex-nowrap flex-col p-0 lg:flex-row sm:px-[30px] lg:pl-[84px] lg:pr-[64px]">
+      <div class="hero-box text-center sm:p-[20px] tablet:px-0 lg:text-left lg:w-[45%] lg:pr-[90px] lg:pt-[30px] lg:pb-[40px]">
         <h1 class="font-bold text-header leading-tight pb-[10px] lg:pb-0">We make building a new home possible</h1>
-        <h2 class="pb-[20px] lg:pl-1 lg:py-[40px] lg:pr-[30px]">A new home is so much better than a used one- Welcome makes the process of building a home super-simple. We handle everything at a guaranteed all-in price.</h2>
-        <div class="max-md:flex max-md:flex-col max-md:items-center md:text-left md:whitespace-nowrap lg:pl-1">
-          <a class="btn btn-primary text-left max-md:px-[16px] max-md:w-2/3 max-md:mb-[12px]">Our models</a>
-          <a class="btn btn-secondary text-left max-md:px-[16px] max-md:w-2/3 md:ml-[21px]">Explore towns</a>
+        <h2 class="tracking-widest pb-[20px] lg:pl-1 lg:py-[40px] lg:pr-[30px]">A new home is so much better than a used one- Welcome makes the process of building a home super-simple. We handle everything at a guaranteed all-in price.</h2>
+        <div class="max-tablet:flex max-tablet:flex-col max-tablet:items-center tablet:text-left tablet:whitespace-nowrap lg:pl-1">
+          <a class="btn btn-primary text-left max-tablet:px-[16px] max-tablet:w-2/3 max-tablet:mb-[12px]">Our models</a>
+          <a class="btn btn-secondary text-left max-tablet:px-[16px] max-tablet:w-2/3 tablet:ml-[21px]">Explore towns</a>
         </div>
       </div>
-      <div class="hero-box flex-1 pt-[30px] pb-[50px]">
+      <div class="hero-box flex-1 sm:pb-[50px] relative pt-[10px] lg:pt-[30px]">
         <img src="./images/welcome-slider-1.jpg" alt="slider-1" class="rounded-2xl" />
+        <button class="swiper-button swiper-button-left hover:text-primary">
+          <span class="material-icons md-18 duration-300">
+            chevron_left
+          </span>
+        </button>
+        <button class="swiper-button swiper-button-right hover:text-primary">
+          <span class="material-icons md-18 duration-300">
+            chevron_right
+          </span>
+        </button>
+      </div>
+    </div>
+    <div class="text-center md:text-left w-full bg-grayBlack text-white px-[30px] py-[50px] md:px-[80px] md:pt-[64px] md:pb-[96px]">
+      <div class="how-it-works-header mb-[30px] md:mb-[68px] w-min mx-auto md:ml-0">
+        <h2 class="text-2xl font-bold tracking-wide pt-[24px] whitespace-nowrap">How it works</h2>
+      </div>
+      <div class="how-it-works-items-container tablet:max-md:max-w-[70%] mx-auto md:w-full flex flex-col md:flex-row justify-between">
+        <div class="mb-[50px] md:mb-0 md:w-[30%]">
+          <span class="material-icons md-24 how-it-works-icon mb-[10px] md:mb-[26px]">
+            edit
+          </span>
+          <h5 class="mb-[10px] md:mb-[32px]">Select & Customize</h5>
+          <p class="text-[14px] md:text-base">
+            Our architects & designers have developed beautiful transitioal homes in 3, 4 and 5 bedroom options with more on the way! The designs are thoughtful and around real world living and we have tons of upgrades to make life amazing in your new home.
+          </p>
+        </div>
+        <div class="mb-[50px] md:mb-0 md:w-[30%]">
+          <span class="material-icons md-24 how-it-works-icon mb-[10px] md:mb-[26px]">
+            place
+          </span>
+          <h5 class="mb-[10px] md:mb-[32px]">Choose the best location</h5>
+          <p class="text-[14px] md:text-base">
+            We operate in 703 towns with more towns being added every week Our team reviews every available parcel in the towns we cover and offer a guaranteed all-in price for each.
+          </p>
+        </div>
+        <div class="md:mb-0 md:w-[30%]">
+          <span class="material-icons md-24 how-it-works-icon mb-[10px] md:mb-[26px]">
+            receipt_long
+          </span>
+          <h5 class="mb-[10px] md:mb-[32px]">Financing & Closing</h5>
+          <p class="text-[14px] md:text-base">
+            Financing is simple with Welcome's banking partners, who can help you secure a construction loan that will cover your whole project and transitions to a permanent mortgage when your house is ready.
+          </p>
+        </div>
       </div>
     </div>
   </div>
